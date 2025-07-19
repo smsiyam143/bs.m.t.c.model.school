@@ -1,0 +1,152 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html><html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BS. M.T.C Model School</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-blue-900 text-white py-4 shadow">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div class="flex items-center gap-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Education_icon.svg/1024px-Education_icon.svg.png" alt="logo" class="h-12">
+        <h1 class="text-2xl font-bold">BS. M.T.C Model School</h1>
+      </div>
+      <div>
+        <input type="text" placeholder="সার্চ করুন..." class="px-3 py-1 rounded text-black">
+      </div>
+    </div>
+  </header>  <!-- Navbar -->  <nav class="bg-blue-800 text-white py-2">
+    <div class="container mx-auto flex gap-4 px-4 flex-wrap">
+      <a href="#" class="hover:underline">হোম</a>
+      <a href="#about" class="hover:underline">আমাদের সম্পর্কে</a>
+      <a href="#teachers" class="hover:underline">শিক্ষকবৃন্দ</a>
+      <a href="#result" class="hover:underline">ফলাফল</a>
+      <a href="#notice" class="hover:underline">নোটিশ</a>
+      <a href="#admission" class="hover:underline">ভর্তি</a>
+      <a href="#gallery" class="hover:underline">গ্যালারি</a>
+      <a href="#routine" class="hover:underline">ক্লাস রুটিন</a>
+      <a href="#admin" class="hover:underline">অ্যাডমিন</a>
+      <a href="#video" class="hover:underline">ভিডিও</a>
+    </div>
+  </nav>  <!-- Hero Section -->  <section class="bg-blue-100 py-6">
+    <div class="container mx-auto px-4">
+      <div class="bg-white rounded shadow p-4 text-center">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-2">জ্ঞানই শক্তি</h2>
+        <p class="text-gray-700">BS. M.T.C Model School-এর অফিসিয়াল ওয়েবসাইটে আপনাকে স্বাগতম। শিক্ষার মান উন্নয়নে আমরা প্রতিশ্রুতিবদ্ধ।</p>
+      </div>
+    </div>
+  </section>  <!-- Main Content -->  <main class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Left Content -->
+    <div class="md:col-span-2 space-y-6"><!-- About Section -->
+  <div id="about" class="bg-white shadow p-6 rounded">
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">বিদ্যালয় পরিচিতি</h2>
+    <p class="text-gray-700">BS. M.T.C Model School একটি মানসম্পন্ন শিক্ষা প্রতিষ্ঠান যেখানে আধুনিক শিক্ষা পদ্ধতিতে শিক্ষার্থীদের গড়ে তোলা হয়।</p>
+  </div>
+
+  <!-- Result Search -->
+  <div id="result" class="bg-white shadow p-6 rounded">
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">ফলাফল খুঁজুন</h2>
+    <input type="text" placeholder="রোল নাম্বার লিখুন" class="w-full px-4 py-2 border rounded text-black mb-2">
+    <button class="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-900">দেখুন</button>
+  </div>
+
+  <!-- Teachers Section -->
+  <div id="teachers" class="bg-white shadow p-6 rounded">
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">শিক্ষকবৃন্দ</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="text-center">
+        <img src="https://via.placeholder.com/100" class="rounded-full mx-auto">
+        <p class="mt-2">জনাব রফিকুল ইসলাম<br><span class="text-sm text-gray-500">প্রধান শিক্ষক</span></p>
+      </div>
+      <div class="text-center">
+        <img src="https://via.placeholder.com/100" class="rounded-full mx-auto">
+        <p class="mt-2">মিসেস শারমিন আক্তার<br><span class="text-sm text-gray-500">গণিত</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admission Form -->
+  <div id="admission" class="bg-white shadow p-6 rounded">
+    <h2 class="text-xl font-semibold text-blue-800 mb-4">অনলাইন ভর্তি ফর্ম</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="শিক্ষার্থীর নাম" class="w-full border px-4 py-2 rounded text-black">
+      <input type="text" placeholder="পিতার নাম" class="w-full border px-4 py-2 rounded text-black">
+      <input type="text" placeholder="মাতার নাম" class="w-full border px-4 py-2 rounded text-black">
+      <input type="text" placeholder="মোবাইল নম্বর" class="w-full border px-4 py-2 rounded text-black">
+      <input type="text" placeholder="ঠিকানা" class="w-full border px-4 py-2 rounded text-black">
+      <button type="submit" class="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-900">জমা দিন</button>
+    </form>
+  </div>
+
+  <!-- Gallery -->
+  <div id="gallery" class="bg-white shadow p-6 rounded">
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">গ্যালারি</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="https://via.placeholder.com/150" class="rounded shadow">
+      <img src="https://via.placeholder.com/150" class="rounded shadow">
+      <img src="https://via.placeholder.com/150" class="rounded shadow">
+    </div>
+  </div>
+
+  <!-- Class Routine -->
+  <div id="routine" class="bg-white shadow p-6 rounded">
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">ক্লাস রুটিন</h2>
+    <table class="w-full border text-center text-sm">
+      <thead>
+        <tr class="bg-blue-200">
+          <th class="border px-2 py-1">দিন</th>
+          <th class="border px-2 py-1">১০-১১</th>
+          <th class="border px-2 py-1">১১-১২</th>
+          <th class="border px-2 py-1">১২-১</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-2 py-1">রবিবার</td>
+          <td class="border px-2 py-1">বাংলা</td>
+          <td class="border px-2 py-1">গণিত</td>
+          <td class="border px-2 py-1">ইংরেজি</td>
+        </tr>
+        <tr class="bg-gray-100">
+          <td class="border px-2 py-1">সোমবার</td>
+          <td class="border px-2 py-1">বিজ্ঞান</td>
+          <td class="border px-2 py-1">ইতিহাস</td>
+          <td class="border px-2 py-1">ধর্ম</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Admin Panel -->
+  <div id="admin" class="bg-white shadow p-6 rounded">
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">অ্যাডমিন প্যানেল</h2>
+    <p class="text-gray-700">এই অংশে ভবিষ্যতে অ্যাডমিন লগইন, কন্টেন্ট ম্যানেজমেন্ট, ফলাফল আপলোড ইত্যাদি ফিচার যুক্ত করা যাবে।</p>
+  </div>
+
+  <!-- Video Gallery -->
+  <div id="video" class="bg-white shadow p-6 rounded">
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">ভিডিও গ্যালারি</h2>
+    <div class="aspect-w-16 aspect-h-9">
+      <iframe class="w-full rounded" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+</div>
+
+<!-- Right Sidebar -->
+<aside id="notice" class="bg-white shadow p-6 rounded space-y-4">
+  <h2 class="text-xl font-semibold text-blue-800">নোটিশ বোর্ড</h2>
+  <ul class="list-disc list-inside text-gray-700">
+    <li>শিক্ষক সভা ২১ জুলাই</li>
+    <li>ফলাফল প্রকাশ সংক্রান্ত নির্দেশনা</li>
+    <li>নতুন শিক্ষাবর্ষের ক্লাস রুটিন</li>
+  </ul>
+</aside>
+
+  </main>  <!-- Footer -->  <footer class="bg-blue-900 text-white text-center py-4">
+    <p>&copy; ২০২৫ BS. M.T.C Model School. সর্বস্বত্ব সংরক্ষিত।</p>
+  </footer>
+</body>
+</html>
